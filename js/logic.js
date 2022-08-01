@@ -1,6 +1,6 @@
 const fetchData = async () => {
     try {
-      const url = await fetch("pk.json");
+      const url = await fetch("../pk_cities/pk.json");
       data = await url.json();
       displayData(data);
     } 
