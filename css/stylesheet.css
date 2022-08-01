@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+body {
+    
+}
+.fieldWrapper {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    min-height: 185px;
+    border: 1px solid lightgray;
+    padding: 50px;
+    border-radius: 5px;
+}
+.fieldWrapper .labelWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fieldWrapper .labelWrapper label {
+
+}
+.fieldWrapper .selectWrapper {
+    
+}
+.fieldWrapper .selectWrapper select {
+    width: 300px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+.fieldWrapper .labelWrapper p span {
+    font-weight: 600;
+}
+.fieldWrapper .cityDetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fieldWrapper .cityDetail p,
+.fieldWrapper .cityDetail span {
+    font-size: 12px;
+    text-align: right;
+}
+.fieldWrapper .cityDetail span {
+    font-weight: 600;
+}
